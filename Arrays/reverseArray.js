@@ -9,9 +9,9 @@
 
 // SOLUTION
 function reverseArray(arr) {
-  let reversedArray = [];s
+  let reversedArray = [];
   for (let i = arr.length - 1; i > 0; i--) {
     reversedArray.push(arr[i]);
   }
-  return reverseArray;
+  return reversedArray;
 }
